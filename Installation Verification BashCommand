@@ -1,0 +1,12 @@
+# Terminal commands to verify driver load
+$ kextstat | grep com.mycompany.driver.DSP56000
+Expected Output:
+Index Refs Address            Size       Name
+42    0    0xfeedf000         0x2000     com.mycompany.driver.DSP56000
+
+# Check memory mapping
+$ sudo dsp-util --memmap
+Expected Output:
+DSP Registers:    F1000000-F1000FFF [Mapped]
+DSP RAM:          F2000000-F203FFFF [512KB]
+SCSI-DSP Buffer:  F3000000-F3007FFF [32KB]

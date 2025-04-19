@@ -1,0 +1,3 @@
+CFLAGS = -O3 -fomit-frame-pointer -ffast-math -m68040
+LDFLAGS = -Wl,-dead_strip -lSCSIToolkit -lFPUmath
+MACOSX_DEPLOYMENT_TARGET = OPENSTEP4.2

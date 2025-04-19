@@ -1,0 +1,4 @@
+# Run comprehensive memory tests
+sudo dsp-util --test-memory
+# Expected output:
+# DSP RAM: 512KB verified with 0 errors

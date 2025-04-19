@@ -1,0 +1,4 @@
+# Load driver and test
+sudo kextload DSP56000Driver.kext
+dsp-util --test-mapping
+# Expected output: "Memory mapping verified successfully"

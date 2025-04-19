@@ -1,0 +1,4 @@
+# Run timing calibration
+sudo dsp-util --calibrate
+# Expected output within ±5% of:
+# DSP Cycle Time: 25ns ±1.2ns
