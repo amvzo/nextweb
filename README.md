@@ -1,4 +1,4 @@
-# nextweb
+# NeXTWEB
 NextStep/OpenStep Web Browser
 
 NeXTWEB is an attempt to leverage AI to create a new application for vintage operating systems. Ideally this will run on both emulators, as well as, original NeXT Computers. In the future it might also be expendaded to run on Intel 486 Machines and even Sun Sparc machines, and all that were capable of running OpenStep. 
